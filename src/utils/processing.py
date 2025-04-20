@@ -67,8 +67,8 @@ def upload_to_database(filename, entity):
                 session.merge(record)
                 session.commit()
             except IntegrityError as e:
-                session.rollback()
                 print(f"Error inserting record: {e}")
+                session.rollback()
 
     session.close()
 
