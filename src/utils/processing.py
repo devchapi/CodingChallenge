@@ -28,7 +28,7 @@ def upload_to_database(filename, entity):
     with open('src/utils/config.json', 'r') as f:
         config = json.load(f)
     
-    connection_cad = f"mysql+mysqldb://{config['mysql']['user']}:{config['mysql']['password']}@{config['mysql']['host']}/{config['mysql']['database']}"
+    connection_cad = f"mysql+pymysql://{config['mysql']['user']}:{config['mysql']['password']}@{config['mysql']['host']}/{config['mysql']['database']}"
     
     engine = create_engine(connection_cad)
 
@@ -84,7 +84,7 @@ def execute_employees_by_department_job_service(query):
     with open('src/utils/config.json', 'r') as f:
         config = json.load(f)
     
-    connection_cad = f"mysql+mysqldb://{config['mysql']['user']}:{config['mysql']['password']}@{config['mysql']['host']}/{config['mysql']['database']}"
+    connection_cad = f"mysql+pymysql://{config['mysql']['user']}:{config['mysql']['password']}@{config['mysql']['host']}/{config['mysql']['database']}"
     
     engine = create_engine(connection_cad)
 
@@ -107,7 +107,7 @@ def execute_hired_over_mean_service(query):
     with open('src/utils/config.json', 'r') as f:
         config = json.load(f)
     
-    connection_cad = f"mysql+mysqldb://{config['mysql']['user']}:{config['mysql']['password']}@{config['mysql']['host']}/{config['mysql']['database']}"
+    connection_cad = f"mysql+pymysql://{config['mysql']['user']}:{config['mysql']['password']}@{config['mysql']['host']}/{config['mysql']['database']}"
     
     engine = create_engine(connection_cad)
 

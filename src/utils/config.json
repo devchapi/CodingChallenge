@@ -1,6 +1,6 @@
 {
     "mysql": {
-        "host": "localhost:3306",
+        "host": "host.docker.internal",
         "user": "root",
         "password": "Megadeth123",
         "database": "globant"
