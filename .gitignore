@@ -176,4 +176,4 @@ cython_debug/
 
 # Data and sentences
 .data/
-config.json
+utils/config.json
