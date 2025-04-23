@@ -36,7 +36,6 @@ Globant Data Engineer Coding Challenge
 
 ## 📷 Evidencias y Capturas de Pantalla
 
-```markdown
 ### 📸 Captura - Servicio ECS en ejecución
 <p align="center">
   <img src="/screenshots/ecs-running.png"/>
