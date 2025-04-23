@@ -1,8 +1,8 @@
 {
     "mysql": {
-        "host": "host.docker.internal",
-        "user": "root",
-        "password": "Megadeth123",
+        "host": "db-globant.c9scmosge5xh.us-east-2.rds.amazonaws.com",
+        "user": "admin",
+        "password": "WbqUwrb5GznDls9qITtW",
         "database": "globant"
     }
 }
